@@ -1,0 +1,51 @@
+.mainDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 98px;
+    background-color: rgb(65, 65, 64);
+    height: 100vh;
+}
+.searchDiv{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.inputEle{
+    width: 300px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+.inputEle::placeholder{
+    font-size: 10px;
+    font-weight: bold;
+    /* font-weight: lighter; */
+}
+
+th
+{
+    color: rgb(184, 195, 85);
+    font-weight: bold;
+    
+}
+td{
+    color: #def3f3;
+    text-align: center;
+}
+button{
+    border: none;
+    background-color: rgb(51, 51, 136);
+    color: rgb(201, 193, 193);
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 7px;
+}
+button:hover{
+    background-color: blueviolet;
+    color: antiquewhite;
+}
